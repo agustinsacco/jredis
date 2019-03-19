@@ -1,0 +1,25 @@
+{
+  "name": "jredis",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "scripts": {
+    "test": "mocha -r ts-node/register tests/**/*.test.ts"
+  },
+  "dependencies": {
+    "redis": "^2.8.0"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.0.10",
+    "@types/faker": "^4.1.2",
+    "@types/md5": "^2.1.32",
+    "@types/mocha": "^2.2.44",
+    "@types/redis": "^2.8.1",
+    "chai": "^4.1.2",
+    "faker": "^4.1.0",
+    "md5": "^2.2.1",
+    "mocha": "^4.0.1",
+    "ts-node": "^3.3.0",
+    "typescript": "^2.6.2"
+  }
+}
